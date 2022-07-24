@@ -1,0 +1,26 @@
+.sidebar {
+    background-color: #031731;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: showSidebar .5s;
+    
+}
+
+.iconeX {
+    margin: 18px;
+}
+
+@keyframes showSidebar {
+    from{
+        opacity: 0;
+        width: 0;
+    }
+    to {
+        opacity: 1;
+        width: 250px;
+    }
+}
+
